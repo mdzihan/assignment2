@@ -1,0 +1,278 @@
+#banner {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    background-color: rgb(24, 23, 23);
+    border-color: white;
+    border-style: solid;
+    text-align: left;
+    height: 1px;
+    background-image: url(assets/Banner\ Image.png);
+    background-position: right bottom;
+    background-size: 42%;
+    background-repeat: no-repeat;
+    padding: 250px;
+    margin: 40px 100px 100px 100px;
+    border-radius: 40px;
+ }
+ 
+ h1 {
+
+    position: relative;
+    top: -220px;
+    left: -180px;
+ }
+ 
+ p {
+ 
+ 
+    color: white;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+    position: relative;
+ }
+ 
+ .watch-live{
+
+    color: white;
+    text-decoration: none;
+ }
+ 
+ button {
+ 
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: medium;
+    border-radius: 5px;
+    border-color: red;
+    background-color: red;
+    position: relative;
+    top: -20px;
+    left: 2px;
+ }
+ 
+ .button--text:hover{
+ 
+ 
+    background-color: rgb(25, 241, 6);
+    border: none;
+ }
+ 
+#thepage {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 900px;
+    height: 220px;
+ }
+ 
+ .match {
+ 
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lobster', cursive;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    background-color: red;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+    height: 30px;
+ }
+ 
+ .group {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lobster', cursive;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+    height: 30px;
+ }
+
+ /*.blog {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-style: solid;
+    border-color: white
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 20px 20px 650px 20px;
+    height: 30px;
+ 
+ }*/
+ 
+
+ .tran{
+ 
+ 
+        border: 2px solid gray ;
+        width: 70px;
+        color: black;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        border-radius: 5px;
+ }
+ .menu-section{
+    background-color: black;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    margin-right: 20px;
+ }
+ .menu-section a {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+ }
+ .link{
+ 
+ 
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    color:white;
+    background-color: red;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+    height: 30px;
+ }
+ .link:hover{
+    background-color: rgb(25, 241, 6);
+    border: none;
+ }
+
+ .link-group{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 20px 20px 20px 20px;
+    height: 30px;
+ }
+ .link-blog{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 20px 20px 650px 20px;
+    height: 30px;
+ }
+
+ .main-blog-section{
+    display: grid;
+    font-family: 'Lobster', cursive;
+    grid-template-columns: 300px 1fr;
+ }
+
+ .blogs-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    font-family: 'Lobster', cursive;
+    margin-left: 20px
+ }
+ 
+ .footer {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border-style: solid;
+    font-family: 'Lobster', cursive;
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+    width: 100%;
+    height: 900px;
+ }
+ hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: 100px;
+ }
+
+ h6 {
+    display: inline;
+    position: relative;
+    top: 120px;
+    border-style: solid;
+    border-color: black;
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+ }
+ 
+ .goal {
+    position: relative;
+    top: 90px;
+ }
+
+ /* mobile  */
+
+ @media screen and (max-width: 570px) {
+    .blogs-section{
+     grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-blog-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ 
+.menu-section{
+ 
+        background-color: white;
+        height: 100px;
+        margin-top: 20px;
+    }
+.menu-section a{
+    color: black;
+    display: unset;
+    justify-content: center;
+    border: 2px solid gray;
+    }
+
+.deepfoot{ 
+    display: grid;
+    grid-template-rows: 1fr;
+    }
+ }
+ @media screen and (min-width: 571px) and (max-width: 900px) {
+    .blogs-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ 
+ 
+ 
